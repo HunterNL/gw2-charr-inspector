@@ -1,0 +1,18 @@
+{
+    "env" : {
+      "meteor" : true,
+      "browser" : true,
+      "node" : true
+    },
+    "extends": ["airbnb","plugin:meteor/recommended"],
+    "plugins": [
+        "react",
+        "jsx-a11y",
+        "import",
+        "meteor"
+    ],
+    "settings" : {
+      "import/resolver":"meteor",
+      "import/core-modules":["meteor/meteor"]
+    }
+}
